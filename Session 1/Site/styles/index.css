@@ -8,6 +8,10 @@ body {
   text-align: center;
 }
 
+body > h2 {
+  text-decoration: underline;
+}
+
 ul {
   margin-top: auto;
   display: inline-block;
