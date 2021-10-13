@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 800px;
+  background-color: black;
+  color: white;
+  border: solid white;
+  margin: 2em auto;
+  text-align: center;
+}
+
+body > img {
+  max-width: 500px;
+}
+
+body > h2 {
+  animation: change-color 4s infinite;
+}
+
+ul {
+  margin-top: auto;
+  display: inline-block;
+  text-align: left;
+}
+
+@keyframes change-color {
+  0%{color:lightblue}
+  33%{color:gold}
+  66%{color:pink}
+  100%{color:lightgreen}
+}
