@@ -1,0 +1,34 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 800px;
+  background-color: black;
+  color: white;
+  border: 10px solid;
+  margin: 2em auto;
+  text-align: center;
+  padding: 20px 5px;
+  border-image: url(../images/floor.png) 12 round;
+}
+
+body > img {
+  max-width: 500px;
+}
+
+body > h2 {
+  animation: change-color 4s infinite;
+}
+
+ul {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: inline-block;
+  text-align: left;
+}
+
+@keyframes change-color {
+  0%{color:rgb(66, 133, 244);}
+  24%{color:rgb(66, 133, 244);}
+  49%{color:rgb(219, 68, 55);}
+  74%{color:rgb(244, 180, 0)}
+  100%{color:rgb(15, 157, 88)}
+}
