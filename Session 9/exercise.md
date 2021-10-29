@@ -11,7 +11,7 @@ delay("This is message", 5)
 # No. 2
 Create a function to create a diamond pattern. Tell the user to specify the height of the diamond and then print the diamond pattern with that specified height.
 ```
-Total height = (2 * width - 1)
+Total height = (2 * height - 1)
 ```
 Extra points if you can do with just one for loop
 This one needs a bit of math / pattern logic
