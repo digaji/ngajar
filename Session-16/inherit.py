@@ -1,4 +1,3 @@
-from typing import overload
 from person import Person
 from comp.something import something
 
@@ -48,11 +47,9 @@ class Dog(Animal):
         super().__init__(4, weight, 30)
 
     # Overriding a method
-    @overload
     def make_sound(self):
         return "Bark"
 
-    @overload
     def make_sound(self, integer):
         return "Bark " * integer
 
